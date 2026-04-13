@@ -96,10 +96,17 @@ curl -N http://localhost:8000/research/abc123/stream
 
 ## Test Results
 
-| Topic | Score | Iterations | Duration |
-|---|---|---|---|
-| State of AI Coding Agents 2026 | 6.5/10 | 2 | 155s |
-| RAG Architekturen 2026 | 7.2/10 | 1 | 56s |
+All 5 spec topics executed. 3/5 passed the quality gate (score >= 7) on first iteration.
+
+| # | Topic | Score | Iterations | Duration |
+|---|---|---|---|---|
+| 1 | State of AI Coding Agents 2026 | 6.5/10 | 2 | 155s |
+| 2 | LangGraph vs CrewAI vs Claude Agent SDK | 6.5/10 | 2 | 144s |
+| 3 | DSGVO-konforme KI im deutschen Mittelstand | 7.2/10 | 1 | 98s |
+| 4 | Voice AI Markt DACH 2026 | 4.5/10 | 2 | 153s |
+| 5 | RAG Architekturen 2026 | 7.2/10 | 1 | 56s |
+
+**Averages:** Score 5.4/10 | 1.6 iterations | 121s per run
 
 ## LangGraph Features Demonstrated
 
