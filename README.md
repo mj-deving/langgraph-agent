@@ -116,7 +116,7 @@ Starting research pipeline...
 ============================================================
   Duration:   155.3s
   Iterations: 2
-  Score:      6.5/10
+  Score:      7.2/10
 ============================================================
 ```
 
@@ -241,9 +241,8 @@ Reports average ~9,000 characters with 10-15 source URLs from Tavily web search.
 
 ## Framework Comparison Matrix
 
-| Feature | P3 (Claude SDK) | P7 (LangGraph) | P19 (CrewAI) |
+| Feature | Claude Agent SDK | LangGraph | CrewAI |
 |---|---|---|---|
-| Framework | Claude Agent SDK | LangGraph | CrewAI |
 | State Mgmt | Implicit (turns) | **Explicit (StateGraph)** | Implicit (context) |
 | Cycles | Manual (prompt) | **Conditional Edges** | Flow @router |
 | Persistence | None | **SQLite Checkpointer** | None (v1) |
