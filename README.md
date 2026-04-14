@@ -24,7 +24,7 @@
 ## Architecture
 
 ```mermaid
-graph TD;
+graph LR;
 	__start__([__start__]):::first
 	planner(planner)
 	researcher(researcher)
