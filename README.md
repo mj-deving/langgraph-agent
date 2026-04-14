@@ -1,4 +1,4 @@
-# P7: LangGraph Multi-Agent Research System
+# LangGraph Multi-Agent Research System
 
 [![LangGraph](https://img.shields.io/badge/langgraph-0.3+-blue.svg)](#tech-stack)
 [![Status](https://img.shields.io/badge/status-live-brightgreen.svg)](#test-results)
@@ -308,4 +308,4 @@ langgraph-agent/
 
 ## License
 
-Private project.
+MIT
