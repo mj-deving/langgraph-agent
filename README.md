@@ -1,10 +1,5 @@
 # LangGraph Multi-Agent Research System
 
-[![LangGraph](https://img.shields.io/badge/langgraph-0.3+-blue.svg)](#tech-stack)
-[![Status](https://img.shields.io/badge/status-live-brightgreen.svg)](#test-results)
-[![Python](https://img.shields.io/badge/python-3.12+-blue.svg)](#setup)
-[![API](https://img.shields.io/badge/API-FastAPI-009688.svg)](#api-endpoints)
-
 ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square)
 
 **Autonomous research agent with explicit state machine, quality loop, and streaming.** Four-node LangGraph pipeline (plan → research → write → review) with conditional edges, SQLite persistence, and FastAPI SSE streaming. Reports average ~9,000 chars with 10-15 verified sources, completes in 56-155s per topic.
